@@ -23,13 +23,17 @@ Good luck!
 Solution Overview
 =================
 
+Preparing for the analysis:
+  1. Set working directory to project directory
+  2. Download dataset (wget) and uncompress (unzip)
+
+Actions performed within run_analysis.R:
   1. Load or install required packages: data.table, dplyr, reshape
-  2. Read activity labels
-  3. Read features
-  4. Merge the training and the test sets to create one data set
-  5. Use descriptive (human readable) activity names to name the activities in the data set
-  6. Appropriately label the merged data set with descriptive activity names
-  7. Load measurement data 
-  8. Extract only the measurements on the mean and standard deviation for each measurement
-  9. Create a second, independent tidy data set with the average of each variable for each activity and each subject
-  10. Upload the tidy data set as a txt file created with write.table() using row.names=FALSE 
+  2. Read activity labels and features
+  3. Merge the training and the test sets to create one data se for subject, y, and X observations
+  4. Use descriptive (human readable) activity names to name the activities in the data set
+  5. Appropriately label the merged data set with descriptive activity names
+  6. Load measurement data 
+  7. Extract only the measurements on the mean and standard deviation for each measurement
+  8. Create a second, independent tidy data set (tidy.data2) with the average of each variable for each activity and each subject
+  9. Upload the tidy data set as a txt file (tidy.data2.txt) with write.table() using row.names=FALSE 
