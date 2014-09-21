@@ -23,13 +23,13 @@ Good luck!
 Solution Overview
 =================
 
-1) Load or install required packages: data.table, dplyr, reshape
-2) Read activity labels
-3) Read features
-4) Merge the training and the test sets to create one data set
-5) Use descriptive (human readable) activity names to name the activities in the data set
-6) Appropriately label the merged data set with descriptive activity names
-7) Load measurement data 
-8) Extract only the measurements on the mean and standard deviation for each measurement
-9) Create a second, independent tidy data set with the average of each variable for each activity and each subject
-10) Upload the tidy data set as a txt file created with write.table() using row.names=FALSE 
+  1. Load or install required packages: data.table, dplyr, reshape
+  2. Read activity labels
+  3. Read features
+  4. Merge the training and the test sets to create one data set
+  5. Use descriptive (human readable) activity names to name the activities in the data set
+  6. Appropriately label the merged data set with descriptive activity names
+  7. Load measurement data 
+  8. Extract only the measurements on the mean and standard deviation for each measurement
+  9. Create a second, independent tidy data set with the average of each variable for each activity and each subject
+  10. Upload the tidy data set as a txt file created with write.table() using row.names=FALSE 
